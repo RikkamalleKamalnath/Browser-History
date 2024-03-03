@@ -95,7 +95,7 @@ class App extends Component {
       this.setState({latestHistoryList: newHistoryList})
     }
   }
-  ChangeFunction = 0 => {
+  ChangeFunction = e => {
     this.setState({searchInput: e.target.value})
   }
   render() {
